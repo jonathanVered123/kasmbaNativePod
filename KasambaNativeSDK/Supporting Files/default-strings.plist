@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3FM_Banner</key>
+	<string>http://marketing-kasamba.liveperson.com/content/Marcom/scripts/index.html</string>
+	<key>3_Min_Free</key>
+	<string>3 MIN FREE</string>
+	<key>Advisor_Price_Time</key>
+	<string>/minute</string>
+	<key>Advisor_Reviews</key>
+	<string>reviews</string>
+	<key>AllExpertsView_CategoriesButton</key>
+	<string>Categories</string>
+	<key>AllExpertsView_PriceButton</key>
+	<string>Price</string>
+	<key>AllExpertsView_SearchPlaceHolder</key>
+	<string>Search for...</string>
+	<key>AllExpertsView_SearchText</key>
+	<string>Search</string>
+	<key>AllExpertsView_Title</key>
+	<string>All Experts</string>
+	<key>Androidloginbubble</key>
+	<string>You&apos;re now connected</string>
+	<key>Aquarius</key>
+	<string>Aquarius</string>
+	<key>Aries</key>
+	<string>Aries</string>
+	<key>AuthError_invalid_grant_user_or_pass_incorrect</key>
+	<string>Wrong email or password, please try again</string>
+	<key>AuthenticationException</key>
+	<string>Invalid email or password.
+Please try again.</string>
+	<key>BrowseCategoriesCallToAction</key>
+	<string>Reading Types</string>
+	<key>BrowseOurCategoriesMenuItem</key>
+	<string>Browse Categories</string>
+	<key>C2AButton_call</key>
+	<string>Call Now</string>
+	<key>C2AButton_chat</key>
+	<string>Chat Now</string>
+	<key>Cancel_Button</key>
+	<string>Cancel</string>
+	<key>Cancer</key>
+	<string>Cancer</string>
+	<key>Capricorn</key>
+	<string>Capricorn</string>
+	<key>CategoryPageCallC2A</key>
+	<string>Call Now</string>
+	<key>CategoryPageChatC2A</key>
+	<string>Call Now</string>
+	<key>CategoryPageChatC2A_chat</key>
+	<string>Chat Now</string>
+	<key>CategoryPageOfflineC2A</key>
+	<string>Not available</string>
+	<key>CategoryPageTabCall</key>
+	<string>Call Advisors</string>
+	<key>CategoryPageTabChat</key>
+	<string>Chat Advisors</string>
+	<key>ConfirmPasswordPlaceholder</key>
+	<string>Confirm your password</string>
+	<key>ContactUsLabel</key>
+	<string>if you have any problem reseting your password, please contact us</string>
+	<key>ContactUsMenuItem</key>
+	<string>Contact Us</string>
+	<key>CreateAccountC2A</key>
+	<string>Create your account</string>
+	<key>CreateYourAccountMenuItem</key>
+	<string>Create your account</string>
+	<key>EmailPlaceholder</key>
+	<string>Email address</string>
+	<key>EmptyResponseMessage_Button</key>
+	<string>Refresh</string>
+	<key>EmptyResponseMessage_ConnectionError</key>
+	<string>NO ADVISORS FOUND</string>
+	<key>EmptyResponseMessage_Explanation</key>
+	<string>You&apos;re only two taps away
+from finding a top psychic.</string>
+	<key>Error_Title</key>
+	<string>Error</string>
+	<key>ExpertDetails_3freeMin</key>
+	<string>3min
+free</string>
+	<key>ExpertDetails_3freeMinIOS</key>
+	<string>3 Free
+Chat Min</string>
+	<key>ExpertDetails_CustomerReviews</key>
+	<string>Customer reviews</string>
+	<key>ExpertDetails_ExpirirenceYears</key>
+	<string>Years On Kasamba</string>
+	<key>ExpertDetails_FeaturedTestimonial</key>
+	<string>Featured testimonial</string>
+	<key>ExpertDetails_LoadMoreReviews</key>
+	<string>Load More Reviews...</string>
+	<key>ExpertDetails_NoMoreReviews</key>
+	<string>No More Reviews</string>
+	<key>ExpertDetails_NoMoreReviewsText</key>
+	<string>Sorry, But These are all the reviews to show...</string>
+	<key>ExpertDetails_NotAvailable</key>
+	<string>Not available</string>
+	<key>ExpertDetails_PsychicDescription</key>
+	<string>Psychic Description</string>
+	<key>ExpertDetails_ReadingStyle</key>
+	<string>Reading Style</string>
+	<key>ExpertDetails_ReadingType</key>
+	<string>Reading Tools</string>
+	<key>ExpertDetails_ReviewDaysAgo</key>
+	<string>days ago</string>
+	<key>ExpertDetails_StartChatButton</key>
+	<string>Call Now</string>
+	<key>ExpertDetails_StartChatButton_chat</key>
+	<string>Start chat!</string>
+	<key>ExpertStatus_Busy</key>
+	<string>In a reading</string>
+	<key>ExpertStatus_Offline</key>
+	<string>Offline</string>
+	<key>ExpertStatus_Online</key>
+	<string>Online</string>
+	<key>FacebookDisclaimer</key>
+	<string>Facebook is here for your convenience.
+Your privacy and anonymity is important to us.</string>
+	<key>FacebookDisclaimer1</key>
+	<string>Facebook is here for your convenience.
+</string>
+	<key>FacebookDisclaimer2</key>
+	<string>Your privacy and anonymity is important to us.</string>
+	<key>FacebookLogin_UserAuthenticationGeneralFailure</key>
+	<string>Facebook authentication failed - please try again</string>
+	<key>FacebookRegistrationC2A</key>
+	<string>Connect with Facebook</string>
+	<key>FacebookSignInC2A</key>
+	<string>Connect with Facebook</string>
+	<key>FacebookSignup_UserAuthenticationGeneralFailure</key>
+	<string>Facebook authentication failed - please try again</string>
+	<key>Facebook_UserAuthenticationGeneralFailure</key>
+	<string>Facebook authentication failed - please try again</string>
+	<key>FeedbackSettings</key>
+	<string>Send App Feedback</string>
+	<key>ForgotPasswordC2A</key>
+	<string>Continue</string>
+	<key>ForgotPasswordConfirmationMessage_key_1</key>
+	<string>If this email</string>
+	<key>ForgotPasswordConfirmationMessage_key_2</key>
+	<string>is in our records, you should receive an email shortly with reset instructions</string>
+	<key>ForgotPasswordCustomerSupportLabel</key>
+	<string>Problems resetting your password? Contact us</string>
+	<key>ForgotPasswordCustomerSupportLabel_key_1</key>
+	<string>Problems resetting your password?</string>
+	<key>ForgotPasswordCustomerSupportLabel_key_2</key>
+	<string>Contact us</string>
+	<key>ForgotPasswordSignInButton</key>
+	<string>Login</string>
+	<key>ForgotPasswordSubtitle</key>
+	<string>Please enter the email address you used to create your account</string>
+	<key>ForgotPasswordTitle</key>
+	<string>Forgot your password?</string>
+	<key>Forgot_Your_Password</key>
+	<string>Forgot your password?</string>
+	<key>Gemini</key>
+	<string>Gemini</string>
+	<key>GeneralServerError</key>
+	<string>Wrong email or password, please try again</string>
+	<key>General_Error</key>
+	<string>Oops... Something went wrong...</string>
+	<key>GuestHomeView_CareerAdvisorDescription</key>
+	<string>Taking the right next steps</string>
+	<key>GuestHomeView_CareerAdvisorTitle</key>
+	<string>Career Advisor</string>
+	<key>GuestHomeView_DreamAnalysisDescription</key>
+	<string>Secrets from your subconscious</string>
+	<key>GuestHomeView_DreamAnalysisTitle</key>
+	<string>Dream Analysis</string>
+	<key>GuestHomeView_FortuneTellingDescription</key>
+	<string>Your future revealed</string>
+	<key>GuestHomeView_FortuneTellingTitle</key>
+	<string>Fortune Telling</string>
+	<key>GuestHomeView_LovePsychicsDescription</key>
+	<string>Insights into your love life</string>
+	<key>GuestHomeView_LovePsychicsTitle</key>
+	<string>Love Psychics</string>
+	<key>GuestHomeView_PersonalAstrologyDescription</key>
+	<string>Birth chart, present &amp; future</string>
+	<key>GuestHomeView_PersonalAstrologyTitle</key>
+	<string>Personal Astrology</string>
+	<key>GuestHomeView_PsychicMediumsDescription</key>
+	<string>Messages from the spirit world</string>
+	<key>GuestHomeView_PsychicMediumsTitle</key>
+	<string>Psychic Mediums</string>
+	<key>GuestHomeView_PsychicReadingsDescription</key>
+	<string>Psychic vision into the beyond</string>
+	<key>GuestHomeView_PsychicReadingsTitle</key>
+	<string>Psychic Readings</string>
+	<key>GuestHomeView_TarotReadingDescription</key>
+	<string>Answers from the mystic deck</string>
+	<key>GuestHomeView_TarotReadingTitle</key>
+	<string>Tarot Reading</string>
+	<key>GuestHomeView_Title</key>
+	<string>What reading type
+do you seek?</string>
+	<key>HoroscopeCareerForecast</key>
+	<string>Career Forecast</string>
+	<key>HoroscopeChatLoading</key>
+	<string>Loading...</string>
+	<key>HoroscopeChatNow</key>
+	<string>Chat Now</string>
+	<key>HoroscopeChoseSignAlertMessage</key>
+	<string>Get personalized horoscopes by confirming below</string>
+	<key>HoroscopeChoseSignAlertNotNow</key>
+	<string>NO</string>
+	<key>HoroscopeChoseSignAlertSaveSign</key>
+	<string>YES</string>
+	<key>HoroscopeChoseSignAlertTitle</key>
+	<string>Is this your sign?</string>
+	<key>HoroscopeChoseSignTitle</key>
+	<string>Choose your sign:</string>
+	<key>HoroscopeErrorLoading</key>
+	<string>Looks like there was an error loading your horoscope...</string>
+	<key>HoroscopeLoveForecast</key>
+	<string>Love Forecast</string>
+	<key>HoroscopeMenuItem</key>
+	<string>My Horoscopes</string>
+	<key>HoroscopeNoResults</key>
+	<string>No results found</string>
+	<key>HoroscopeScreenTitle</key>
+	<string>Horoscope</string>
+	<key>HoroscopeSelectorDaily</key>
+	<string>Daily</string>
+	<key>HoroscopeSelectorMonthly</key>
+	<string>Monthly</string>
+	<key>HoroscopeSelectorWeekly</key>
+	<string>Weekly</string>
+	<key>HoroscopeTryAgain</key>
+	<string>Try Again</string>
+	<key>Invalid_Chars_Password_Message</key>
+	<string>Password should include numbers and letters only</string>
+	<key>Invalid_Password_Message</key>
+	<string>Password should be 6-32 characters long</string>
+	<key>Leo</key>
+	<string>Leo</string>
+	<key>Libra</key>
+	<string>Libra</string>
+	<key>LocalizationVersion</key>
+	<string>2314118</string>
+	<key>LoginFailMessage</key>
+	<string>Login failed</string>
+	<key>LoginView_AlreadyHaveAccounnt</key>
+	<string>Already have an account?</string>
+	<key>LoginView_Email</key>
+	<string>E-mail address</string>
+	<key>LoginView_FacebookNeverPost</key>
+	<string>Facebook is here for your convenience. Your privacy and anonymity is important to us.</string>
+	<key>LoginView_Facebook_Login</key>
+	<string>Connect with Facebook</string>
+	<key>LoginView_Facebook_Signup</key>
+	<string>Connect with Facebook</string>
+	<key>LoginView_Forgot_Password</key>
+	<string>Forgot password?</string>
+	<key>LoginView_Login</key>
+	<string>Login</string>
+	<key>LoginView_LoginTitle</key>
+	<string>Login to Kasamba</string>
+	<key>LoginView_No_Account</key>
+	<string>Create your account</string>
+	<key>LoginView_No_Account_key_1</key>
+	<string>Not a member?</string>
+	<key>LoginView_No_Account_key_2</key>
+	<string>Create an account</string>
+	<key>LoginView_Password</key>
+	<string>Password</string>
+	<key>LoginView_RedirectToRegister</key>
+	<string>Sign up to Kasamba</string>
+	<key>LoginView_RegisterToConnect</key>
+	<string>Register to connect</string>
+	<key>LoginView_ResetPassword</key>
+	<string>Forgot your password?</string>
+	<key>LoginView_Signin</key>
+	<string>Login</string>
+	<key>LoginView_SigninErrorTitle</key>
+	<string>Login error</string>
+	<key>LoginView_ValidationText</key>
+	<string>Please enter your Email &amp; Password</string>
+	<key>LoginView_or</key>
+	<string>or</string>
+	<key>LoginView_signinWithEmail_key_1</key>
+	<string>or</string>
+	<key>LoginView_signinWithEmail_key_2</key>
+	<string>Login</string>
+	<key>LoginView_signinWithEmail_key_3</key>
+	<string>with Email</string>
+	<key>LoginView_signupWithEmail_key_1</key>
+	<string>or</string>
+	<key>LoginView_signupWithEmail_key_2</key>
+	<string>Sign Up</string>
+	<key>LoginView_signupWithEmail_key_3</key>
+	<string>with Email</string>
+	<key>LogoutCancelButtonSettings</key>
+	<string>Cancel</string>
+	<key>LogoutSettings</key>
+	<string>Log out</string>
+	<key>LogutWarningSettings</key>
+	<string>Are you sure you want to Log out?</string>
+	<key>MainMenu_AccountLogin</key>
+	<string>Login</string>
+	<key>MainMenu_Experts</key>
+	<string>Experts</string>
+	<key>MainMenu_HomePage</key>
+	<string>Browse Categories</string>
+	<key>MainMenu_MyExperts</key>
+	<string>My psychics</string>
+	<key>MainMenu_Register</key>
+	<string>Create Account</string>
+	<key>MainMenu_SignOut</key>
+	<string>Sign Out</string>
+	<key>MainMenu_Support</key>
+	<string>Contact Us</string>
+	<key>MessagesTitleWindowInbox</key>
+	<string>Messages</string>
+	<key>MyAdvisorsMenuItem</key>
+	<string>My Advisors</string>
+	<key>MyExpertsView_NoExpertsText</key>
+	<string>After each session with a new psychic advisor, you will find their profile listing here.</string>
+	<key>MyExpertsView_NoExpertsTitle</key>
+	<string>No Favorite experts yet?</string>
+	<key>MyExpertsView_SubTitle</key>
+	<string>Connect with your
+favorite advisor</string>
+	<key>MyExpertsView_Title</key>
+	<string>My Experts</string>
+	<key>MyPsychicsCallC2A</key>
+	<string>Call Now</string>
+	<key>MyPsychicsChatC2A</key>
+	<string>Call Now</string>
+	<key>MyPsychicsChatC2A_chat</key>
+	<string>Chat Now</string>
+	<key>MyPsychicsOfflineC2A</key>
+	<string>Not available</string>
+	<key>MyPsychicsTopLabel</key>
+	<string>Connect with your favorite advisor</string>
+	<key>NetworkConnactivityHeader</key>
+	<string>Connected To Interenet</string>
+	<key>NetworkConnectivityBody</key>
+	<string>You can select an expert and enjoy our service !</string>
+	<key>Next_Time_Notification</key>
+	<string>The next time your advisor is online, you will get an instant notification straight to your phone</string>
+	<key>NoAdvisorsView_NewSearchText</key>
+	<string>Please enter a new search term</string>
+	<key>NoAdvisorsView_NoAdvisorsFoundText</key>
+	<string>No Advisors Found</string>
+	<key>NoConnectionPopUp</key>
+	<string>No working internet connection is found.</string>
+	<key>NoConnectionPopUpTitle</key>
+	<string>No Internet</string>
+	<key>NoNetworkBody</key>
+	<string>The internet connection seems to be down. Please check it !</string>
+	<key>NoNetworkHeader</key>
+	<string>No Internet Connection</string>
+	<key>NoReviewsLabel_key_1</key>
+	<string>Start a session and</string>
+	<key>NoReviewsLabel_key_2</key>
+	<string>be the first to leave a review &gt;</string>
+	<key>NoReviewsLabel_newAdvisor</key>
+	<string>New Advisor</string>
+	<key>NotifcationsSettingsTitle</key>
+	<string>Notifications</string>
+	<key>NotificationsSettings</key>
+	<string>Notifications</string>
+	<key>NotificationsSettingsDailyHoroscopeLabel</key>
+	<string>Daily Horoscope</string>
+	<key>NotificationsSettingsFollowLabel</key>
+	<string>Favorite Advisor Online Alerts</string>
+	<key>NotificationsSettingsHoroscopeTitle</key>
+	<string>Horoscope notifications</string>
+	<key>NotificationsSettingsMessagesLabel</key>
+	<string>New Messages Alerts</string>
+	<key>NotificationsSettingsMonthlyCareerHoroscopeLabel</key>
+	<string>Monthly Career Horoscope</string>
+	<key>NotificationsSettingsMonthlyLoveHoroscopeLabel</key>
+	<string>Monthly Love Horoscope</string>
+	<key>NotificationsSettingsSubtitle</key>
+	<string>Manage push notifications</string>
+	<key>NotificationsSettingsWeeklyHoroscopeLabel</key>
+	<string>Weekly Horoscope</string>
+	<key>NotifyMeButtonNotRegistered</key>
+	<string>Notify Me</string>
+	<key>NotifyMeButtonRegistered</key>
+	<string>subscribed</string>
+	<key>Notify_Popup_Got_It</key>
+	<string>Got it</string>
+	<key>Notify_Popup_Great</key>
+	<string>Great!</string>
+	<key>OK_Button</key>
+	<string>OK</string>
+	<key>OnboardingBackLabel</key>
+	<string>Back</string>
+	<key>OnboardingNextLabel</key>
+	<string>Next</string>
+	<key>OnboardingPage1Subtitle</key>
+	<string>The leading psychic service provider -
+over 3 million 5 star rating reviews.</string>
+	<key>OnboardingPage1Subtitle_android</key>
+	<string>The leading psychic service provider -
+over 3 million 5 star rating reviews.</string>
+	<key>OnboardingPage1Title</key>
+	<string>Welcome to Kasamba</string>
+	<key>OnboardingPage1Title_android</key>
+	<string>Welcome to Kasamba</string>
+	<key>OnboardingPage2Subtitle</key>
+	<string>Just choose a reading type and pick a psychic you feel a connection with</string>
+	<key>OnboardingPage2Subtitle_android</key>
+	<string>Love and relationships, psychic
+readings, tarot, and more.</string>
+	<key>OnboardingPage2Subtitle_slide1</key>
+	<string>Love and relationships, psychic readings, tarot, and more.</string>
+	<key>OnboardingPage2Subtitle_slide2</key>
+	<string>Trust your instinct. Find the psychic you connect with most.</string>
+	<key>OnboardingPage2Subtitle_slide3</key>
+	<string>Get the insights and guidance you need, instantly and anonymously.</string>
+	<key>OnboardingPage2Title</key>
+	<string>Finding the right psychic takes seconds</string>
+	<key>OnboardingPage2Title_android</key>
+	<string>Choose a category</string>
+	<key>OnboardingPage2Title_slide1</key>
+	<string>Choose a category</string>
+	<key>OnboardingPage2Title_slide2</key>
+	<string>Choose a psychic advisor</string>
+	<key>OnboardingPage2Title_slide3</key>
+	<string>Start your reading</string>
+	<key>OnboardingPage3C2A</key>
+	<string>Get Started</string>
+	<key>OnboardingPage3Subtitle</key>
+	<string>3 minutes free for your first psychic reading</string>
+	<key>OnboardingPage3Subtitle_android</key>
+	<string>Trust your instinct. Find the psychic
+you connect with most.</string>
+	<key>OnboardingPage3Title</key>
+	<string>3 minutes free for your
+first psychic reading</string>
+	<key>OnboardingPage3Title_android</key>
+	<string>Choose a psychic advisor</string>
+	<key>OnboardingPage4Subtitle_android</key>
+	<string>Get the insights and guidance you
+need, instantly and anonymously.</string>
+	<key>OnboardingPage4Title_android</key>
+	<string>Start your reading</string>
+	<key>OnboardingPage5Subtitle_key1_android</key>
+	<string>3 minutes free with each new
+psychic advisor</string>
+	<key>OnboardingPage5Subtitle_key2_android</key>
+	<string>UNLIMITED</string>
+	<key>OnboardingPage5Title_android</key>
+	<string>Free until you find
+the right psychic</string>
+	<key>OnboardingSkipLabel</key>
+	<string>Skip</string>
+	<key>PasswordPlaceholder</key>
+	<string>Password</string>
+	<key>Password_Mismatch</key>
+	<string>Password does not match the original password</string>
+	<key>PhoneNoteMyPsychics</key>
+	<string>I&apos;m also available for phone session</string>
+	<key>PhoneNoteSearchPage</key>
+	<string>I&apos;m also available for phone session</string>
+	<key>Pisces</key>
+	<string>Pisces</string>
+	<key>PostResetPassword_SignIn</key>
+	<string>Login</string>
+	<key>PostResetPassword_ValidationText</key>
+	<string>If this email {0} is in our records, you should receive an email shortly with reset instruction.</string>
+	<key>ProfilePageBottomCallC2A</key>
+	<string>Call Now</string>
+	<key>ProfilePageBottomChatC2A</key>
+	<string>Call Now</string>
+	<key>ProfilePageBottomChatC2A_chat</key>
+	<string>Chat Now</string>
+	<key>ProfilePageCustomerReviews</key>
+	<string>Customers reviews</string>
+	<key>ProfilePageFeaturedTestimonial</key>
+	<string>Featured testimonial</string>
+	<key>ProfilePageNoReviewsBottomLabel</key>
+	<string>Start a sesson and be the first to leave a review!</string>
+	<key>ProfilePageNoReviewsTopLabel</key>
+	<string>No reviews yet</string>
+	<key>ProfilePageOfflineC2A</key>
+	<string>Not available</string>
+	<key>ProfilePagePsychicDescription</key>
+	<string>Psychic description</string>
+	<key>ProfilePageReadingStyle</key>
+	<string>Reading style</string>
+	<key>ProfilePageReadingTools</key>
+	<string>Reading tools</string>
+	<key>ProfilePageSeeAllReviews</key>
+	<string>See all reviews</string>
+	<key>ProfilePageTopCallC2A</key>
+	<string>Call Now</string>
+	<key>ProfilePageTopChatC2A</key>
+	<string>Call Now</string>
+	<key>ProfilePageTopChatC2A_chat</key>
+	<string>Chat Now</string>
+	<key>ProfilePageYearsOnKasamba</key>
+	<string>Years on Kasamba</string>
+	<key>Psychic Readings</key>
+	<string>Psychic vision into the beyond</string>
+	<key>PullToRefresh</key>
+	<string>Pull to refresh</string>
+	<key>PushDailougeAllow</key>
+	<string>OK</string>
+	<key>PushDailougeCancel</key>
+	<string>Don’t Allow</string>
+	<key>PushDailougeHeader</key>
+	<string>Kasamba would like to send you notifications</string>
+	<key>PushDailougeText</key>
+	<string>Get Push notifcations from Kasamba whenever an Advisor sends you a message, An expert you are waiting for becomes available and sales</string>
+	<key>PushRequestMessages</key>
+	<string>Enable Push Notifications to get notified when your advisor replies or sends you a new message.</string>
+	<key>PushRequestNotify</key>
+	<string>Enable Push Notifications to get notified when your advisor is available for a reading</string>
+	<key>PushRequestSignIn</key>
+	<string>Turn on Push Notifications to get online updates from your advisor, receive special offers, and more!</string>
+	<key>PushTutorialBody1</key>
+	<string>1. Go to settings</string>
+	<key>PushTutorialBody2</key>
+	<string>2. Tap notifications</string>
+	<key>PushTutorialBody3</key>
+	<string>3. Set &quot;Allow Notifications&quot; to on</string>
+	<key>PushTutorialCloseButton</key>
+	<string>Close</string>
+	<key>PushTutorialHeader</key>
+	<string>Change your settings to get notified 
+when your advisor is available</string>
+	<key>PushTutorialSettingsButton</key>
+	<string>Open settings</string>
+	<key>RateSettings</key>
+	<string>Rate the Kasamba App 👍</string>
+	<key>ReallyLogoutButtonSettings</key>
+	<string>Log out</string>
+	<key>RedirectToChat_BackPressedMessage</key>
+	<string>Are you sure you want to quit session?</string>
+	<key>RedirectToChat_BackPressedTitle</key>
+	<string>Quit session</string>
+	<key>RegistrationExistingUserLabel</key>
+	<string>Already have an account? Login</string>
+	<key>RegistrationTitle</key>
+	<string>Sign up to Kasamba</string>
+	<key>ResetPasswordC2A</key>
+	<string>Create your password</string>
+	<key>ResetPasswordSubtitle</key>
+	<string>Create a password to Login with</string>
+	<key>ResetPasswordTitle</key>
+	<string>Reset your password</string>
+	<key>ResetPassword_Continue</key>
+	<string>Continue</string>
+	<key>ResetPassword_EmailAddress</key>
+	<string>E-mail address</string>
+	<key>ResetPassword_EnterEmail</key>
+	<string>Please enter the email address used to create your account</string>
+	<key>ResetPassword_Title</key>
+	<string>Forgot your password?</string>
+	<key>ResetPassword_errorFromService</key>
+	<string>Error in reseting password, please try again later</string>
+	<key>ResetPassword_footerLinkText</key>
+	<string>If you have any problem reseting your password, please contact us</string>
+	<key>ResetPassword_footerText</key>
+	<string>If you have any problem reseting your password, please</string>
+	<key>ReviewsModalTitle</key>
+	<string>Customer reviews</string>
+	<key>ReviewsPageChatC2A</key>
+	<string>Call Now</string>
+	<key>ReviewsPageChatC2A_chat</key>
+	<string>Chat Now</string>
+	<key>Sagittarius</key>
+	<string>Sagittarius</string>
+	<key>Scorpio</key>
+	<string>Scorpio</string>
+	<key>SearchAdvFieldPlaceholder</key>
+	<string>Search for advisors</string>
+	<key>SearchFieldPlaceholder</key>
+	<string>Search for advisors</string>
+	<key>SearchNoAdvisorsFound</key>
+	<string>No advisors found</string>
+	<key>SearchNoDataSubtitle</key>
+	<string>Please enter a new search term</string>
+	<key>SearchNoDataTitle</key>
+	<string>No advisors found</string>
+	<key>SearchPageCallC2A</key>
+	<string>Call Now</string>
+	<key>SearchPageChatC2A</key>
+	<string>Call Now</string>
+	<key>SearchPageChatC2A_chat</key>
+	<string>Chat Now</string>
+	<key>SearchPageOfflineC2A</key>
+	<string>Not available</string>
+	<key>SearchResultsPlaceholder</key>
+	<string>Search results for:</string>
+	<key>See_All_Results</key>
+	<string>See all results</string>
+	<key>SessionStartTime</key>
+	<string>Session start time :</string>
+	<key>SettingNotificationErrorSubtitle</key>
+	<string>Please Try Again</string>
+	<key>SettingNotificationErrorTitle</key>
+	<string>Something Went Wrong</string>
+	<key>SettingsInMenu</key>
+	<string>Settings</string>
+	<key>SettingsTitle</key>
+	<string>Settings</string>
+	<key>SignInC2A</key>
+	<string>Login with email</string>
+	<key>SignInExistingUserLabel</key>
+	<string>Not a member? Create an account</string>
+	<key>SignInMenuItem</key>
+	<string>Login</string>
+	<key>SignInTitle</key>
+	<string>Kasamba Login</string>
+	<key>SignOutMenuItem</key>
+	<string>Sign out</string>
+	<key>SignOutView_AreYouSureText</key>
+	<string>Are You Sure You want to Sign Out?</string>
+	<key>SignOutView_SignOutButton</key>
+	<string>Sign Out</string>
+	<key>SignOutView_SignupErrorTitle</key>
+	<string>Sign up error</string>
+	<key>SignupView_emailFormat</key>
+	<string>Please enter a valid email</string>
+	<key>SignupView_minChararectersForPassword</key>
+	<string>Please enter a valid password (min 6 characters and be creative)</string>
+	<key>Signup_InvalidPasswordBadWord</key>
+	<string>Password is not strong enough, try again</string>
+	<key>Signup_InvalidPasswordFromServer</key>
+	<string>The password is not strong enough, please choose a new password.</string>
+	<key>Signup_UserAuthenticationGeneralFailure</key>
+	<string>Unknown error, try again. Contact us if problem continues</string>
+	<key>Signup_UserNameAlreadyExists</key>
+	<string>This email is already registered</string>
+	<key>Signup_UserNameIsNotValidEmail</key>
+	<string>Please enter a valid email</string>
+	<key>Taurus</key>
+	<string>Taurus</string>
+	<key>TermsAndConditions1</key>
+	<string>By signing up, you agree to the</string>
+	<key>TermsAndConditions2</key>
+	<string>Terms and Conditions</string>
+	<key>TermsAndConditionsLink</key>
+	<string>http://touch.kasamba.com/pages/landingpages/default.aspx?DlpID=58456</string>
+	<key>TermsSettings</key>
+	<string>Terms of Service</string>
+	<key>TourSettings</key>
+	<string>Take a Quick Tour</string>
+	<key>Transcriptsbydate</key>
+	<string>Transcripts by date</string>
+	<key>UnknownErrorMessage</key>
+	<string>Unknown error</string>
+	<key>UpdateAppButton</key>
+	<string>Update App</string>
+	<key>UserNameAlreadyExistsException</key>
+	<string>This email is already registered under another user.</string>
+	<key>VersionKillSwitchAndroid</key>
+	<string>Update now by visiting Google Play and enjoy all the new features available!</string>
+	<key>VersionKillSwitchAndroidButton</key>
+	<string>Update App</string>
+	<key>VersionKillSwitchAndroidTitle</key>
+	<string>New Version of Kasamba is now Available!</string>
+	<key>VersionKillSwitchIOS</key>
+	<string>A new version of Kasamba is now available. Please update by visiting the Apple Store.</string>
+	<key>Virgo</key>
+	<string>Virgo</string>
+	<key>With_Each_New_Advisor</key>
+	<string>with each
+new advisor</string>
+	<key>composeMessageButtonLabel</key>
+	<string>or send the advisor a message</string>
+	<key>confirmPassInvalidMsg</key>
+	<string>Password does not match the original password</string>
+	<key>connection_error</key>
+	<string>CONNECTION ERROR</string>
+	<key>connection_error_message</key>
+	<string>You’re only two taps away from finding a top psychic</string>
+	<key>datetoday</key>
+	<string>Today</string>
+	<key>dateyesterday</key>
+	<string>Yesterday</string>
+	<key>inAppNotificationPopUpTitle</key>
+	<string>Kasamba Notification</string>
+	<key>invalidEmailLabel</key>
+	<string>Please enter a valid email address</string>
+	<key>menutranscripts</key>
+	<string>My Readings</string>
+	<key>nativeChat3FMStartedMessage</key>
+	<string>Your 3 free minutes started</string>
+	<key>nativeChatAccountDepletedMessage</key>
+	<string>Your session ended due to lack of funds in your account.</string>
+	<key>nativeChatAlertCloseButton</key>
+	<string>Ok</string>
+	<key>nativeChatAreYouSureAlertText</key>
+	<string>Are you sure you would like to end the chat?</string>
+	<key>nativeChatCloseButton</key>
+	<string>Close chat</string>
+	<key>nativeChatConnectingString</key>
+	<string>connecting</string>
+	<key>nativeChatConnectingToAdvisorLabel</key>
+	<string>Connecting to advisor...</string>
+	<key>nativeChatConnectionErrorMessage</key>
+	<string>Your session ended due to Internet connectivity issues.</string>
+	<key>nativeChatEndChatButton</key>
+	<string>End chat</string>
+	<key>nativeChatEndedSeparatorText</key>
+	<string>Chat ended</string>
+	<key>nativeChatExpertBusyMessage</key>
+	<string>We are sorry for the inconvenience. Please try connecting to the advisor again later, or contact another advisor who is available right now.</string>
+	<key>nativeChatExpertBusyTitle</key>
+	<string>It appears your advisor is temporarily unavailable</string>
+	<key>nativeChatExpertChangedFeeMessage</key>
+	<string>Session fee has changed to %@ per minute</string>
+	<key>nativeChatExpertDisconnectedMessage</key>
+	<string>Your session ended because the advisor had connection issues.</string>
+	<key>nativeChatExpertQuitMessage</key>
+	<string>Your session ended because the advisor left the chat room.</string>
+	<key>nativeChatGeneralErrorTitle</key>
+	<string>Something went wrong</string>
+	<key>nativeChatPaidSessionStartedMessage</key>
+	<string>Paid session started</string>
+	<key>nativeChatRateScreenAddReviewPlaceholder</key>
+	<string>Add a short review</string>
+	<key>nativeChatRateScreenFiveStarsText</key>
+	<string>Outstanding</string>
+	<key>nativeChatRateScreenFourStarsText</key>
+	<string>Good</string>
+	<key>nativeChatRateScreenOneStarText</key>
+	<string>Very poor</string>
+	<key>nativeChatRateScreenRateLaterLabel</key>
+	<string>Rate later</string>
+	<key>nativeChatRateScreenRateSessionLabel</key>
+	<string>Rate this session</string>
+	<key>nativeChatRateScreenReviewReviewLabel</key>
+	<string>We are reviewing your review. You will see your review updated shortly.</string>
+	<key>nativeChatRateScreenSendFeedbackLabel</key>
+	<string>Send feedback</string>
+	<key>nativeChatRateScreenThreeStarsText</key>
+	<string>Average</string>
+	<key>nativeChatRateScreenTwoStarsText</key>
+	<string>Below expectations</string>
+	<key>nativeChatReconnectButton</key>
+	<string>Reconnect</string>
+	<key>nativeChatResumeButton</key>
+	<string>Cancel</string>
+	<key>nativeChatSessionEndedTitle</key>
+	<string>The session had ended</string>
+	<key>nativeChatSessionStartedMessage</key>
+	<string>Chat session started</string>
+	<key>nativeChatStartingNoticeText</key>
+	<string>Please do not exchange contact information with your psychic. By communicating on Kassmba only, you enjoy a safe and secure environment and intervention in the case dissatisfaction or a billing dispute</string>
+	<key>nativeChatTechnicalErrorMessage</key>
+	<string>Your session ended due to technical reasons.</string>
+	<key>nativeChatTextSenderPlaceholder</key>
+	<string>Type a message</string>
+	<key>nativeChatTimerConnecting</key>
+	<string>Connecting</string>
+	<key>nativeChatTypingString</key>
+	<string>typing...</string>
+	<key>nosessions</key>
+	<string>No sessions</string>
+	<key>offline_session_type</key>
+	<string>Email reading whit</string>
+	<key>online_session_type</key>
+	<string>Voice session with</string>
+	<key>rate_us_enjoying_kasamba_btn</key>
+	<string>Yes I am!</string>
+	<key>rate_us_enjoying_kasamba_msg</key>
+	<string>&lt;b&gt;That’s great!&lt;/b&gt;&lt;br&gt; Could you rate us on Google Play?</string>
+	<key>rate_us_negative_btn</key>
+	<string>No, thanks</string>
+	<key>rate_us_not_enjoying_kasamba_btn</key>
+	<string>Not really</string>
+	<key>rate_us_not_enjoying_kasamba_experience</key>
+	<string>Enjoying your
+Kasamba experience?</string>
+	<key>rate_us_not_enjoying_kasamba_msg_one</key>
+	<string>&lt;b&gt;Sorry to hear that. &lt;/b&gt;</string>
+	<key>rate_us_not_enjoying_kasamba_msg_two</key>
+	<string>Could you tell us why?</string>
+	<key>rate_us_positive_btn</key>
+	<string>Ok, sure</string>
+	<key>retry</key>
+	<string>Retry</string>
+	<key>session_cancelled</key>
+	<string>Cancelled</string>
+	<key>session_chat_type</key>
+	<string>Chat session with</string>
+	<key>session_discount</key>
+	<string>Discount</string>
+	<key>sessionpageheader</key>
+	<string>My Readings</string>
+	<key>sortbutton</key>
+	<string>Sort</string>
+	<key>sortbylabel</key>
+	<string>Sort by</string>
+	<key>sortdonebutton</key>
+	<string>Done</string>
+	<key>sorthidebusyexperttext</key>
+	<string>Hide busy advisors</string>
+	<key>sorthighestpricetext</key>
+	<string>Price: High to Low</string>
+	<key>sorthighestranktext</key>
+	<string>Top Rated Advisors</string>
+	<key>sortlessthan4text</key>
+	<string>Up to $4/Min</string>
+	<key>sortlessthan7text</key>
+	<string>Up to $7/Min</string>
+	<key>sortlowestpricetext</key>
+	<string>Price: Low to High</string>
+	<key>sortnewpsychictext</key>
+	<string>New Advisors</string>
+	<key>transcriptemptybody</key>
+	<string>Browse our Categories and choose a
+psychic advisor</string>
+	<key>transcriptemptybutton</key>
+	<string>Browse Categories</string>
+	<key>transcriptemptytitle</key>
+	<string>You don’t have any sessions</string>
+	<key>transcripterrorbody</key>
+	<string>Please try again or browse for advisors</string>
+	<key>transcripterrorbutton</key>
+	<string>Refresh</string>
+	<key>transcriptgeneralerrortitle</key>
+	<string>Something went wrong</string>
+	<key>transcriptviewertitledeeplink</key>
+	<string>Your reading</string>
+	<key>view_button</key>
+	<string>view</string>
+	<key>vip_contact_title</key>
+	<string>Meet Your Personal Account Manager and Access Your Special Gifts Today!</string>
+	<key>vip_contact_subtitle</key>
+	<string>Please leave your contact information below and your dedicated account manager will contact you soon</string>
+	<key>vip_contact_email_header</key>
+	<string>Email address</string>
+	<key>vip_contact_placeholder_email</key>
+	<string>Enter your email address</string>
+	<key>vip_contact_button_text</key>
+	<string>Send Now</string>
+	<key>vip_contact_form_thank_you_title</key>
+	<string>Thank you for being a valued Kasamba client!</string>
+	<key>Vip_contact_form_thank_you_button</key>
+	<string>Close</string>
+	<key>AccountActivitySessionsTitle</key>
+	<string>My Sessions</string>
+	<key>AccountActivityTransactionsTitle</key>
+	<string>Transactions</string>
+	<key>AccountActivityTitle</key>
+	<string>Account Activity</string>
+	<key>AccountActivityAvailableBalanceTitle</key>
+	<string>Available Balance</string>
+	<key>AccountActivityReservedFundsTitle</key>
+	<string>Reserved Funds:</string>
+	<key>AccountActivityCouponBalanceTitle</key>
+	<string>Coupon Balance:</string>
+	<key>AccountActivityBalanceTitle</key>
+	<string>Balance:</string>
+	<key>AccountActivityOpenTicket</key>
+	<string>Open a ticket</string>
+	<key>AccountActivitySessionID</key>
+	<string>Session ID</string>
+	<key>AccountActivityViewSessionsTranscript</key>
+	<string>View Reading</string>
+	<key>AccountActivitySessionDetailsTitle</key>
+	<string>Session Details</string>
+	<key>AccountActivitySessionDetailsLabel</key>
+	<string>Session details</string>
+	<key>AccountActivitySessionLengthLabel</key>
+	<string>Session length</string>
+	<key>AccountActivityFeePerMinLabel</key>
+	<string>Fee per minute</string>
+	<key>AccountActivitySubtotalLabel</key>
+	<string>Subtotal</string>
+	<key>AccountActivityDiscountLabel</key>
+	<string>Discount</string>
+	<key>AccountActivity3fmLabel</key>
+	<string>Free 3 minutes</string>
+	<key>AccountActivityTotalLabel</key>
+	<string>Total</string>
+	<key>AccountActivitySessionRatingLabel</key>
+	<string>Session rating</string>
+	<key>AccountActivityViewReading</key>
+	<string>View Reading</string>
+	<key>AccountActivitySessionCancleMessage</key>
+	<string>This session was cancelled on</string>
+	<key>AccountActivityChatSessionMessage</key>
+	<string>Chat session with</string>
+	<key>AccountActivityVoiceSessionMessage</key>
+	<string>Voice session with</string>
+	<key>AccountActivityEmailReadingSessionMessage</key>
+	<string>Email reading with</string>
+	<key>Minutes</key>
+	<string>minutes</string>
+</dict>
+</plist>

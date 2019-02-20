@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614462B82781AB3F9DA73BA4 /* libPods-KasambaNativeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732BC3AB6617BBAAF8538059 /* libPods-KasambaNativeSDK.a */; };
+		BEC93BA322199C610029D681 /* KasambaNativeSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BA122199C610029D681 /* KasambaNativeSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C0D22199CAB0029D681 /* AccountResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BAA22199CAB0029D681 /* AccountResponse.m */; };
+		BEC93C0E22199CAB0029D681 /* UserDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BAB22199CAB0029D681 /* UserDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C0F22199CAB0029D681 /* NetworkObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BAC22199CAB0029D681 /* NetworkObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C1022199CAB0029D681 /* ClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BAD22199CAB0029D681 /* ClientConfiguration.m */; };
+		BEC93C1122199CAB0029D681 /* AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BAE22199CAB0029D681 /* AccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C1222199CAB0029D681 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BAF22199CAB0029D681 /* AccountManager.m */; };
+		BEC93C1322199CAB0029D681 /* AccountResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BB022199CAB0029D681 /* AccountResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C1422199CAB0029D681 /* UserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BB122199CAB0029D681 /* UserDetails.m */; };
+		BEC93C1522199CAB0029D681 /* NetworkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BB222199CAB0029D681 /* NetworkObject.m */; };
+		BEC93C1622199CAB0029D681 /* AccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BB322199CAB0029D681 /* AccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C1722199CAB0029D681 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BB422199CAB0029D681 /* AccessToken.m */; };
+		BEC93C1822199CAB0029D681 /* ClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BB522199CAB0029D681 /* ClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C1922199CAB0029D681 /* ContentEncoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BB722199CAB0029D681 /* ContentEncoderProtocol.swift */; };
+		BEC93C1A22199CAB0029D681 /* StatusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BB822199CAB0029D681 /* StatusError.swift */; };
+		BEC93C1B22199CAB0029D681 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BB922199CAB0029D681 /* Services.swift */; };
+		BEC93C1C22199CAB0029D681 /* SecuredServiceTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BBA22199CAB0029D681 /* SecuredServiceTaskHandler.swift */; };
+		BEC93C1D22199CAB0029D681 /* JsonEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BBB22199CAB0029D681 /* JsonEncoder.swift */; };
+		BEC93C1E22199CAB0029D681 /* ConfigurationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BBC22199CAB0029D681 /* ConfigurationServiceProtocol.swift */; };
+		BEC93C1F22199CAB0029D681 /* UserAccountError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BBD22199CAB0029D681 /* UserAccountError.swift */; };
+		BEC93C2022199CAB0029D681 /* ServiceTaskHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BBE22199CAB0029D681 /* ServiceTaskHandlerProtocol.swift */; };
+		BEC93C2122199CAB0029D681 /* RestServiceTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BBF22199CAB0029D681 /* RestServiceTaskHandler.swift */; };
+		BEC93C2222199CAB0029D681 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC022199CAB0029D681 /* ServiceError.swift */; };
+		BEC93C2322199CAB0029D681 /* ConfigurationServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC122199CAB0029D681 /* ConfigurationServiceError.swift */; };
+		BEC93C2422199CAB0029D681 /* JsonServiceTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC222199CAB0029D681 /* JsonServiceTaskHandler.swift */; };
+		BEC93C2522199CAB0029D681 /* UserAccountServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC322199CAB0029D681 /* UserAccountServiceProtocol.swift */; };
+		BEC93C2622199CAB0029D681 /* ConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC422199CAB0029D681 /* ConfigurationService.swift */; };
+		BEC93C2722199CAB0029D681 /* UrlEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC522199CAB0029D681 /* UrlEncoder.swift */; };
+		BEC93C2822199CAB0029D681 /* KasambaServiceTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC622199CAB0029D681 /* KasambaServiceTaskHandler.swift */; };
+		BEC93C2922199CAB0029D681 /* NativeServiceTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC722199CAB0029D681 /* NativeServiceTaskHandler.swift */; };
+		BEC93C2A22199CAB0029D681 /* UserAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BC822199CAB0029D681 /* UserAccountService.swift */; };
+		BEC93C2C22199CAB0029D681 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BCC22199CAB0029D681 /* Reachability.m */; };
+		BEC93C2D22199CAB0029D681 /* ConnectivityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BCD22199CAB0029D681 /* ConnectivityProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C2E22199CAB0029D681 /* Connectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BCE22199CAB0029D681 /* Connectivity.m */; };
+		BEC93C2F22199CAB0029D681 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BCF22199CAB0029D681 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3022199CAB0029D681 /* Connectivity.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BD022199CAB0029D681 /* Connectivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3122199CAB0029D681 /* FeatureState.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BD222199CAB0029D681 /* FeatureState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3222199CAB0029D681 /* FeatureState.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BD322199CAB0029D681 /* FeatureState.m */; };
+		BEC93C3322199CAB0029D681 /* FeatureStateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BD422199CAB0029D681 /* FeatureStateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3422199CAB0029D681 /* AppParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BD622199CAB0029D681 /* AppParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3522199CAB0029D681 /* AppParametersProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BD722199CAB0029D681 /* AppParametersProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3622199CAB0029D681 /* AppParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BD822199CAB0029D681 /* AppParameters.m */; };
+		BEC93C3722199CAB0029D681 /* LocalizationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BDA22199CAB0029D681 /* LocalizationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3822199CAB0029D681 /* LocalizationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BDB22199CAB0029D681 /* LocalizationHelper.m */; };
+		BEC93C3922199CAB0029D681 /* LocalizedStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BDC22199CAB0029D681 /* LocalizedStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3A22199CAB0029D681 /* NSObject_KVCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BDE22199CAB0029D681 /* NSObject_KVCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3B22199CAB0029D681 /* Dispatch+MainQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BDF22199CAB0029D681 /* Dispatch+MainQueue.m */; };
+		BEC93C3C22199CAB0029D681 /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BE022199CAB0029D681 /* NSDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3D22199CAB0029D681 /* NSString+passwordValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BE122199CAB0029D681 /* NSString+passwordValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C3E22199CAB0029D681 /* DispatchQueue+ExecutOnMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE222199CAB0029D681 /* DispatchQueue+ExecutOnMain.swift */; };
+		BEC93C3F22199CAB0029D681 /* Dictionary+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE322199CAB0029D681 /* Dictionary+Append.swift */; };
+		BEC93C4022199CAB0029D681 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE422199CAB0029D681 /* HTTPMethod.swift */; };
+		BEC93C4122199CAB0029D681 /* SataticObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE522199CAB0029D681 /* SataticObject.swift */; };
+		BEC93C4222199CAB0029D681 /* NSObject_KVCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE622199CAB0029D681 /* NSObject_KVCExtensions.m */; };
+		BEC93C4322199CAB0029D681 /* DispatchQueue+MainQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE722199CAB0029D681 /* DispatchQueue+MainQueue.swift */; };
+		BEC93C4422199CAB0029D681 /* Array+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BE822199CAB0029D681 /* Array+Append.swift */; };
+		BEC93C4522199CAB0029D681 /* Dispatch+MainQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BE922199CAB0029D681 /* Dispatch+MainQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C4622199CAB0029D681 /* Dictionary+KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BEA22199CAB0029D681 /* Dictionary+KeyPath.swift */; };
+		BEC93C4722199CAB0029D681 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BEB22199CAB0029D681 /* NSDictionary+Safe.m */; };
+		BEC93C4822199CAB0029D681 /* NSString+passwordValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BEC22199CAB0029D681 /* NSString+passwordValidation.m */; };
+		BEC93C4922199CAB0029D681 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BED22199CAB0029D681 /* LinkedList.swift */; };
+		BEC93C4A22199CAB0029D681 /* CreateAccountViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BEF22199CAB0029D681 /* CreateAccountViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C4B22199CAB0029D681 /* SidedMenuRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BF022199CAB0029D681 /* SidedMenuRootViewController.m */; };
+		BEC93C4C22199CAB0029D681 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BF122199CAB0029D681 /* SigninViewController.m */; };
+		BEC93C4D22199CAB0029D681 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BF322199CAB0029D681 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C4E22199CAB0029D681 /* SidedMenuRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BF422199CAB0029D681 /* SidedMenuRootViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C4F22199CAB0029D681 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BF522199CAB0029D681 /* CreateAccountViewController.m */; };
+		BEC93C5022199CAB0029D681 /* SigninViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BF622199CAB0029D681 /* SigninViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C5122199CAB0029D681 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BF722199CAB0029D681 /* SWRevealViewController.m */; };
+		BEC93C5222199CAB0029D681 /* NetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BFA22199CAB0029D681 /* NetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C5322199CAB0029D681 /* AccessTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BFB22199CAB0029D681 /* AccessTokenManager.m */; };
+		BEC93C5422199CAB0029D681 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BFC22199CAB0029D681 /* NetworkManager.m */; };
+		BEC93C5522199CAB0029D681 /* AccessTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BFD22199CAB0029D681 /* AccessTokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C5622199CAB0029D681 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = BEC93BFF22199CAB0029D681 /* PrefixHeader.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C5722199CAB0029D681 /* LoginSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93C0022199CAB0029D681 /* LoginSDK.m */; };
+		BEC93C5822199CAB0029D681 /* MainStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC93C0222199CAB0029D681 /* MainStory.storyboard */; };
+		BEC93C5922199CAB0029D681 /* WCGraintCircleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93C0522199CAB0029D681 /* WCGraintCircleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C5A22199CAB0029D681 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = BEC93C0622199CAB0029D681 /* loading.gif */; };
+		BEC93C5B22199CAB0029D681 /* LoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93C0722199CAB0029D681 /* LoadingIndicator.m */; };
+		BEC93C5C22199CAB0029D681 /* WCGraintCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93C0822199CAB0029D681 /* WCGraintCircleLayer.m */; };
+		BEC93C5D22199CAB0029D681 /* LoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93C0922199CAB0029D681 /* LoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C5E22199CAB0029D681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC93C0B22199CAB0029D681 /* Assets.xcassets */; };
+		BEC93C5F22199CAB0029D681 /* LoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93C0C22199CAB0029D681 /* LoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC93C632219A4B40029D681 /* SigninViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = BEC93BF122199CAB0029D681 /* SigninViewController.m */; };
+		BEC93C642219A4B40029D681 /* SigninViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = BEC93BF622199CAB0029D681 /* SigninViewController.h */; };
+		BEC93C652219A4BE0029D681 /* SigninViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BF622199CAB0029D681 /* SigninViewController.h */; };
+		BEC93C672219A5110029D681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC93C662219A5110029D681 /* UIKit.framework */; };
+		BEC93C692219A5170029D681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC93C682219A5170029D681 /* Foundation.framework */; };
+		BEC93C6B2219ACD80029D681 /* default-strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC93C6A2219ACD80029D681 /* default-strings.plist */; };
+		BEC93C6D2219B4D30029D681 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC93BCA22199CAB0029D681 /* Utilities.swift */; };
+		BEC93C6E2219B5150029D681 /* Utilities.swift in Resources */ = {isa = PBXBuildFile; fileRef = BEC93BCA22199CAB0029D681 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5012C45B97DE303B1037AAA5 /* Pods-KasambaNativeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KasambaNativeSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-KasambaNativeSDK/Pods-KasambaNativeSDK.release.xcconfig"; sourceTree = "<group>"; };
+		732BC3AB6617BBAAF8538059 /* libPods-KasambaNativeSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KasambaNativeSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DE414B8DEBDF340C8837D2 /* Pods-KasambaNativeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KasambaNativeSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KasambaNativeSDK/Pods-KasambaNativeSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC93B9E22199C610029D681 /* KasambaNativeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KasambaNativeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC93BA122199C610029D681 /* KasambaNativeSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KasambaNativeSDK.h; sourceTree = "<group>"; };
+		BEC93BA222199C610029D681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC93BAA22199CAB0029D681 /* AccountResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountResponse.m; sourceTree = "<group>"; };
+		BEC93BAB22199CAB0029D681 /* UserDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetails.h; sourceTree = "<group>"; };
+		BEC93BAC22199CAB0029D681 /* NetworkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkObject.h; sourceTree = "<group>"; };
+		BEC93BAD22199CAB0029D681 /* ClientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientConfiguration.m; sourceTree = "<group>"; };
+		BEC93BAE22199CAB0029D681 /* AccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		BEC93BAF22199CAB0029D681 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		BEC93BB022199CAB0029D681 /* AccountResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountResponse.h; sourceTree = "<group>"; };
+		BEC93BB122199CAB0029D681 /* UserDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetails.m; sourceTree = "<group>"; };
+		BEC93BB222199CAB0029D681 /* NetworkObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkObject.m; sourceTree = "<group>"; };
+		BEC93BB322199CAB0029D681 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		BEC93BB422199CAB0029D681 /* AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		BEC93BB522199CAB0029D681 /* ClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientConfiguration.h; sourceTree = "<group>"; };
+		BEC93BB722199CAB0029D681 /* ContentEncoderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentEncoderProtocol.swift; sourceTree = "<group>"; };
+		BEC93BB822199CAB0029D681 /* StatusError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusError.swift; sourceTree = "<group>"; };
+		BEC93BB922199CAB0029D681 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		BEC93BBA22199CAB0029D681 /* SecuredServiceTaskHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecuredServiceTaskHandler.swift; sourceTree = "<group>"; };
+		BEC93BBB22199CAB0029D681 /* JsonEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonEncoder.swift; sourceTree = "<group>"; };
+		BEC93BBC22199CAB0029D681 /* ConfigurationServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationServiceProtocol.swift; sourceTree = "<group>"; };
+		BEC93BBD22199CAB0029D681 /* UserAccountError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountError.swift; sourceTree = "<group>"; };
+		BEC93BBE22199CAB0029D681 /* ServiceTaskHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTaskHandlerProtocol.swift; sourceTree = "<group>"; };
+		BEC93BBF22199CAB0029D681 /* RestServiceTaskHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestServiceTaskHandler.swift; sourceTree = "<group>"; };
+		BEC93BC022199CAB0029D681 /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		BEC93BC122199CAB0029D681 /* ConfigurationServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationServiceError.swift; sourceTree = "<group>"; };
+		BEC93BC222199CAB0029D681 /* JsonServiceTaskHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonServiceTaskHandler.swift; sourceTree = "<group>"; };
+		BEC93BC322199CAB0029D681 /* UserAccountServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountServiceProtocol.swift; sourceTree = "<group>"; };
+		BEC93BC422199CAB0029D681 /* ConfigurationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationService.swift; sourceTree = "<group>"; };
+		BEC93BC522199CAB0029D681 /* UrlEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlEncoder.swift; sourceTree = "<group>"; };
+		BEC93BC622199CAB0029D681 /* KasambaServiceTaskHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KasambaServiceTaskHandler.swift; sourceTree = "<group>"; };
+		BEC93BC722199CAB0029D681 /* NativeServiceTaskHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeServiceTaskHandler.swift; sourceTree = "<group>"; };
+		BEC93BC822199CAB0029D681 /* UserAccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountService.swift; sourceTree = "<group>"; };
+		BEC93BCA22199CAB0029D681 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BEC93BCC22199CAB0029D681 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BEC93BCD22199CAB0029D681 /* ConnectivityProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityProtocol.h; sourceTree = "<group>"; };
+		BEC93BCE22199CAB0029D681 /* Connectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connectivity.m; sourceTree = "<group>"; };
+		BEC93BCF22199CAB0029D681 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BEC93BD022199CAB0029D681 /* Connectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connectivity.h; sourceTree = "<group>"; };
+		BEC93BD222199CAB0029D681 /* FeatureState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureState.h; sourceTree = "<group>"; };
+		BEC93BD322199CAB0029D681 /* FeatureState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureState.m; sourceTree = "<group>"; };
+		BEC93BD422199CAB0029D681 /* FeatureStateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureStateProtocol.h; sourceTree = "<group>"; };
+		BEC93BD622199CAB0029D681 /* AppParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppParameters.h; sourceTree = "<group>"; };
+		BEC93BD722199CAB0029D681 /* AppParametersProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppParametersProtocol.h; sourceTree = "<group>"; };
+		BEC93BD822199CAB0029D681 /* AppParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppParameters.m; sourceTree = "<group>"; };
+		BEC93BDA22199CAB0029D681 /* LocalizationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationHelper.h; sourceTree = "<group>"; };
+		BEC93BDB22199CAB0029D681 /* LocalizationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizationHelper.m; sourceTree = "<group>"; };
+		BEC93BDC22199CAB0029D681 /* LocalizedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedStrings.h; sourceTree = "<group>"; };
+		BEC93BDE22199CAB0029D681 /* NSObject_KVCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_KVCExtensions.h; sourceTree = "<group>"; };
+		BEC93BDF22199CAB0029D681 /* Dispatch+MainQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Dispatch+MainQueue.m"; sourceTree = "<group>"; };
+		BEC93BE022199CAB0029D681 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		BEC93BE122199CAB0029D681 /* NSString+passwordValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+passwordValidation.h"; sourceTree = "<group>"; };
+		BEC93BE222199CAB0029D681 /* DispatchQueue+ExecutOnMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+ExecutOnMain.swift"; sourceTree = "<group>"; };
+		BEC93BE322199CAB0029D681 /* Dictionary+Append.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Append.swift"; sourceTree = "<group>"; };
+		BEC93BE422199CAB0029D681 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		BEC93BE522199CAB0029D681 /* SataticObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SataticObject.swift; sourceTree = "<group>"; };
+		BEC93BE622199CAB0029D681 /* NSObject_KVCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_KVCExtensions.m; sourceTree = "<group>"; };
+		BEC93BE722199CAB0029D681 /* DispatchQueue+MainQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+MainQueue.swift"; sourceTree = "<group>"; };
+		BEC93BE822199CAB0029D681 /* Array+Append.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Append.swift"; sourceTree = "<group>"; };
+		BEC93BE922199CAB0029D681 /* Dispatch+MainQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dispatch+MainQueue.h"; sourceTree = "<group>"; };
+		BEC93BEA22199CAB0029D681 /* Dictionary+KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+KeyPath.swift"; sourceTree = "<group>"; };
+		BEC93BEB22199CAB0029D681 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		BEC93BEC22199CAB0029D681 /* NSString+passwordValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+passwordValidation.m"; sourceTree = "<group>"; };
+		BEC93BED22199CAB0029D681 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		BEC93BEF22199CAB0029D681 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		BEC93BF022199CAB0029D681 /* SidedMenuRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidedMenuRootViewController.m; sourceTree = "<group>"; };
+		BEC93BF122199CAB0029D681 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
+		BEC93BF322199CAB0029D681 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BEC93BF422199CAB0029D681 /* SidedMenuRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidedMenuRootViewController.h; sourceTree = "<group>"; };
+		BEC93BF522199CAB0029D681 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		BEC93BF622199CAB0029D681 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
+		BEC93BF722199CAB0029D681 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BEC93BFA22199CAB0029D681 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		BEC93BFB22199CAB0029D681 /* AccessTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessTokenManager.m; sourceTree = "<group>"; };
+		BEC93BFC22199CAB0029D681 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		BEC93BFD22199CAB0029D681 /* AccessTokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessTokenManager.h; sourceTree = "<group>"; };
+		BEC93BFF22199CAB0029D681 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BEC93C0022199CAB0029D681 /* LoginSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSDK.m; sourceTree = "<group>"; };
+		BEC93C0322199CAB0029D681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MainStory.storyboard; sourceTree = "<group>"; };
+		BEC93C0522199CAB0029D681 /* WCGraintCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCGraintCircleLayer.h; sourceTree = "<group>"; };
+		BEC93C0622199CAB0029D681 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		BEC93C0722199CAB0029D681 /* LoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingIndicator.m; sourceTree = "<group>"; };
+		BEC93C0822199CAB0029D681 /* WCGraintCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCGraintCircleLayer.m; sourceTree = "<group>"; };
+		BEC93C0922199CAB0029D681 /* LoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingIndicator.h; sourceTree = "<group>"; };
+		BEC93C0B22199CAB0029D681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC93C0C22199CAB0029D681 /* LoginSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSDK.h; sourceTree = "<group>"; };
+		BEC93C662219A5110029D681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEC93C682219A5170029D681 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEC93C6A2219ACD80029D681 /* default-strings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "default-strings.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC93B9B22199C610029D681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC93C692219A5170029D681 /* Foundation.framework in Frameworks */,
+				BEC93C672219A5110029D681 /* UIKit.framework in Frameworks */,
+				614462B82781AB3F9DA73BA4 /* libPods-KasambaNativeSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C626A104065039A4EEA9E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74DE414B8DEBDF340C8837D2 /* Pods-KasambaNativeSDK.debug.xcconfig */,
+				5012C45B97DE303B1037AAA5 /* Pods-KasambaNativeSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ECA5AEA77C2A74DDCC10913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93C682219A5170029D681 /* Foundation.framework */,
+				BEC93C662219A5110029D681 /* UIKit.framework */,
+				732BC3AB6617BBAAF8538059 /* libPods-KasambaNativeSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC93B9422199C610029D681 = {
+			isa = PBXGroup;
+			children = (
+				BEC93BA022199C610029D681 /* KasambaNativeSDK */,
+				BEC93B9F22199C610029D681 /* Products */,
+				2C626A104065039A4EEA9E72 /* Pods */,
+				6ECA5AEA77C2A74DDCC10913 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC93B9F22199C610029D681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93B9E22199C610029D681 /* KasambaNativeSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC93BA022199C610029D681 /* KasambaNativeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93C0122199CAB0029D681 /* Base.lproj */,
+				BEC93BFE22199CAB0029D681 /* Bridging */,
+				BEC93C0422199CAB0029D681 /* Custom Views */,
+				BEC93BF822199CAB0029D681 /* en.lproj */,
+				BEC93BDD22199CAB0029D681 /* Extentsions */,
+				BEC93C0C22199CAB0029D681 /* LoginSDK.h */,
+				BEC93C0022199CAB0029D681 /* LoginSDK.m */,
+				BEC93BF922199CAB0029D681 /* Managers */,
+				BEC93BA922199CAB0029D681 /* Objects */,
+				BEC93BB622199CAB0029D681 /* Services */,
+				BEC93C0A22199CAB0029D681 /* Supporting Files */,
+				BEC93BC922199CAB0029D681 /* Utilities */,
+				BEC93BEE22199CAB0029D681 /* View Controllers */,
+				BEC93BA122199C610029D681 /* KasambaNativeSDK.h */,
+				BEC93BA222199C610029D681 /* Info.plist */,
+			);
+			path = KasambaNativeSDK;
+			sourceTree = "<group>";
+		};
+		BEC93BA922199CAB0029D681 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BAA22199CAB0029D681 /* AccountResponse.m */,
+				BEC93BAB22199CAB0029D681 /* UserDetails.h */,
+				BEC93BAC22199CAB0029D681 /* NetworkObject.h */,
+				BEC93BAD22199CAB0029D681 /* ClientConfiguration.m */,
+				BEC93BAE22199CAB0029D681 /* AccessToken.h */,
+				BEC93BAF22199CAB0029D681 /* AccountManager.m */,
+				BEC93BB022199CAB0029D681 /* AccountResponse.h */,
+				BEC93BB122199CAB0029D681 /* UserDetails.m */,
+				BEC93BB222199CAB0029D681 /* NetworkObject.m */,
+				BEC93BB322199CAB0029D681 /* AccountManager.h */,
+				BEC93BB422199CAB0029D681 /* AccessToken.m */,
+				BEC93BB522199CAB0029D681 /* ClientConfiguration.h */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		BEC93BB622199CAB0029D681 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BB722199CAB0029D681 /* ContentEncoderProtocol.swift */,
+				BEC93BB822199CAB0029D681 /* StatusError.swift */,
+				BEC93BB922199CAB0029D681 /* Services.swift */,
+				BEC93BBA22199CAB0029D681 /* SecuredServiceTaskHandler.swift */,
+				BEC93BBB22199CAB0029D681 /* JsonEncoder.swift */,
+				BEC93BBC22199CAB0029D681 /* ConfigurationServiceProtocol.swift */,
+				BEC93BBD22199CAB0029D681 /* UserAccountError.swift */,
+				BEC93BBE22199CAB0029D681 /* ServiceTaskHandlerProtocol.swift */,
+				BEC93BBF22199CAB0029D681 /* RestServiceTaskHandler.swift */,
+				BEC93BC022199CAB0029D681 /* ServiceError.swift */,
+				BEC93BC122199CAB0029D681 /* ConfigurationServiceError.swift */,
+				BEC93BC222199CAB0029D681 /* JsonServiceTaskHandler.swift */,
+				BEC93BC322199CAB0029D681 /* UserAccountServiceProtocol.swift */,
+				BEC93BC422199CAB0029D681 /* ConfigurationService.swift */,
+				BEC93BC522199CAB0029D681 /* UrlEncoder.swift */,
+				BEC93BC622199CAB0029D681 /* KasambaServiceTaskHandler.swift */,
+				BEC93BC722199CAB0029D681 /* NativeServiceTaskHandler.swift */,
+				BEC93BC822199CAB0029D681 /* UserAccountService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BEC93BC922199CAB0029D681 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BCA22199CAB0029D681 /* Utilities.swift */,
+				BEC93BCB22199CAB0029D681 /* Connectivity */,
+				BEC93BD122199CAB0029D681 /* FeatureState */,
+				BEC93BD522199CAB0029D681 /* AppParameters */,
+				BEC93BD922199CAB0029D681 /* LocalizationHelper */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BEC93BCB22199CAB0029D681 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BCC22199CAB0029D681 /* Reachability.m */,
+				BEC93BCD22199CAB0029D681 /* ConnectivityProtocol.h */,
+				BEC93BCE22199CAB0029D681 /* Connectivity.m */,
+				BEC93BCF22199CAB0029D681 /* Reachability.h */,
+				BEC93BD022199CAB0029D681 /* Connectivity.h */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		BEC93BD122199CAB0029D681 /* FeatureState */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BD222199CAB0029D681 /* FeatureState.h */,
+				BEC93BD322199CAB0029D681 /* FeatureState.m */,
+				BEC93BD422199CAB0029D681 /* FeatureStateProtocol.h */,
+			);
+			path = FeatureState;
+			sourceTree = "<group>";
+		};
+		BEC93BD522199CAB0029D681 /* AppParameters */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BD622199CAB0029D681 /* AppParameters.h */,
+				BEC93BD722199CAB0029D681 /* AppParametersProtocol.h */,
+				BEC93BD822199CAB0029D681 /* AppParameters.m */,
+			);
+			path = AppParameters;
+			sourceTree = "<group>";
+		};
+		BEC93BD922199CAB0029D681 /* LocalizationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BDA22199CAB0029D681 /* LocalizationHelper.h */,
+				BEC93BDB22199CAB0029D681 /* LocalizationHelper.m */,
+				BEC93BDC22199CAB0029D681 /* LocalizedStrings.h */,
+			);
+			path = LocalizationHelper;
+			sourceTree = "<group>";
+		};
+		BEC93BDD22199CAB0029D681 /* Extentsions */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BDE22199CAB0029D681 /* NSObject_KVCExtensions.h */,
+				BEC93BDF22199CAB0029D681 /* Dispatch+MainQueue.m */,
+				BEC93BE022199CAB0029D681 /* NSDictionary+Safe.h */,
+				BEC93BE122199CAB0029D681 /* NSString+passwordValidation.h */,
+				BEC93BE222199CAB0029D681 /* DispatchQueue+ExecutOnMain.swift */,
+				BEC93BE322199CAB0029D681 /* Dictionary+Append.swift */,
+				BEC93BE422199CAB0029D681 /* HTTPMethod.swift */,
+				BEC93BE522199CAB0029D681 /* SataticObject.swift */,
+				BEC93BE622199CAB0029D681 /* NSObject_KVCExtensions.m */,
+				BEC93BE722199CAB0029D681 /* DispatchQueue+MainQueue.swift */,
+				BEC93BE822199CAB0029D681 /* Array+Append.swift */,
+				BEC93BE922199CAB0029D681 /* Dispatch+MainQueue.h */,
+				BEC93BEA22199CAB0029D681 /* Dictionary+KeyPath.swift */,
+				BEC93BEB22199CAB0029D681 /* NSDictionary+Safe.m */,
+				BEC93BEC22199CAB0029D681 /* NSString+passwordValidation.m */,
+				BEC93BED22199CAB0029D681 /* LinkedList.swift */,
+			);
+			path = Extentsions;
+			sourceTree = "<group>";
+		};
+		BEC93BEE22199CAB0029D681 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BEF22199CAB0029D681 /* CreateAccountViewController.h */,
+				BEC93BF022199CAB0029D681 /* SidedMenuRootViewController.m */,
+				BEC93BF122199CAB0029D681 /* SigninViewController.m */,
+				BEC93BF222199CAB0029D681 /* SWRevealViewController */,
+				BEC93BF322199CAB0029D681 /* SWRevealViewController.h */,
+				BEC93BF422199CAB0029D681 /* SidedMenuRootViewController.h */,
+				BEC93BF522199CAB0029D681 /* CreateAccountViewController.m */,
+				BEC93BF622199CAB0029D681 /* SigninViewController.h */,
+				BEC93BF722199CAB0029D681 /* SWRevealViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BEC93BF222199CAB0029D681 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		BEC93BF822199CAB0029D681 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		BEC93BF922199CAB0029D681 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BFA22199CAB0029D681 /* NetworkManager.h */,
+				BEC93BFB22199CAB0029D681 /* AccessTokenManager.m */,
+				BEC93BFC22199CAB0029D681 /* NetworkManager.m */,
+				BEC93BFD22199CAB0029D681 /* AccessTokenManager.h */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BEC93BFE22199CAB0029D681 /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93BFF22199CAB0029D681 /* PrefixHeader.pch */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+		BEC93C0122199CAB0029D681 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93C0222199CAB0029D681 /* MainStory.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		BEC93C0422199CAB0029D681 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93C0522199CAB0029D681 /* WCGraintCircleLayer.h */,
+				BEC93C0622199CAB0029D681 /* loading.gif */,
+				BEC93C0722199CAB0029D681 /* LoadingIndicator.m */,
+				BEC93C0822199CAB0029D681 /* WCGraintCircleLayer.m */,
+				BEC93C0922199CAB0029D681 /* LoadingIndicator.h */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		BEC93C0A22199CAB0029D681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC93C6A2219ACD80029D681 /* default-strings.plist */,
+				BEC93C0B22199CAB0029D681 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BEC93B9922199C610029D681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC93C4D22199CAB0029D681 /* SWRevealViewController.h in Headers */,
+				BEC93C5922199CAB0029D681 /* WCGraintCircleLayer.h in Headers */,
+				BEC93C3722199CAB0029D681 /* LocalizationHelper.h in Headers */,
+				BEC93C5D22199CAB0029D681 /* LoadingIndicator.h in Headers */,
+				BEC93C2F22199CAB0029D681 /* Reachability.h in Headers */,
+				BEC93C3022199CAB0029D681 /* Connectivity.h in Headers */,
+				BEC93C0E22199CAB0029D681 /* UserDetails.h in Headers */,
+				BEC93C3A22199CAB0029D681 /* NSObject_KVCExtensions.h in Headers */,
+				BEC93C0F22199CAB0029D681 /* NetworkObject.h in Headers */,
+				BEC93C1822199CAB0029D681 /* ClientConfiguration.h in Headers */,
+				BEC93C4522199CAB0029D681 /* Dispatch+MainQueue.h in Headers */,
+				BEC93C5F22199CAB0029D681 /* LoginSDK.h in Headers */,
+				BEC93C1122199CAB0029D681 /* AccessToken.h in Headers */,
+				BEC93C3C22199CAB0029D681 /* NSDictionary+Safe.h in Headers */,
+				BEC93C3522199CAB0029D681 /* AppParametersProtocol.h in Headers */,
+				BEC93C4A22199CAB0029D681 /* CreateAccountViewController.h in Headers */,
+				BEC93C5222199CAB0029D681 /* NetworkManager.h in Headers */,
+				BEC93C5522199CAB0029D681 /* AccessTokenManager.h in Headers */,
+				BEC93C3122199CAB0029D681 /* FeatureState.h in Headers */,
+				BEC93C3922199CAB0029D681 /* LocalizedStrings.h in Headers */,
+				BEC93C3322199CAB0029D681 /* FeatureStateProtocol.h in Headers */,
+				BEC93C1322199CAB0029D681 /* AccountResponse.h in Headers */,
+				BEC93C3422199CAB0029D681 /* AppParameters.h in Headers */,
+				BEC93C4E22199CAB0029D681 /* SidedMenuRootViewController.h in Headers */,
+				BEC93C5022199CAB0029D681 /* SigninViewController.h in Headers */,
+				BEC93C3D22199CAB0029D681 /* NSString+passwordValidation.h in Headers */,
+				BEC93C2D22199CAB0029D681 /* ConnectivityProtocol.h in Headers */,
+				BEC93C1622199CAB0029D681 /* AccountManager.h in Headers */,
+				BEC93BA322199C610029D681 /* KasambaNativeSDK.h in Headers */,
+				BEC93C5622199CAB0029D681 /* PrefixHeader.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BEC93B9D22199C610029D681 /* KasambaNativeSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC93BA622199C610029D681 /* Build configuration list for PBXNativeTarget "KasambaNativeSDK" */;
+			buildPhases = (
+				35902F459C2970C334ECB6FA /* [CP] Check Pods Manifest.lock */,
+				BEC93B9922199C610029D681 /* Headers */,
+				BEC93B9A22199C610029D681 /* Sources */,
+				BEC93B9B22199C610029D681 /* Frameworks */,
+				BEC93B9C22199C610029D681 /* Resources */,
+				C0D5BED489F170ADD95FE049 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KasambaNativeSDK;
+			productName = KasambaNativeSDK;
+			productReference = BEC93B9E22199C610029D681 /* KasambaNativeSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC93B9522199C610029D681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kato Acqusition Sub, Inc.";
+				TargetAttributes = {
+					BEC93B9D22199C610029D681 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BEC93B9822199C610029D681 /* Build configuration list for PBXProject "KasambaNativeSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC93B9422199C610029D681;
+			productRefGroup = BEC93B9F22199C610029D681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC93B9D22199C610029D681 /* KasambaNativeSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC93B9C22199C610029D681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC93C6E2219B5150029D681 /* Utilities.swift in Resources */,
+				BEC93C632219A4B40029D681 /* SigninViewController.m in Resources */,
+				BEC93C6B2219ACD80029D681 /* default-strings.plist in Resources */,
+				BEC93C642219A4B40029D681 /* SigninViewController.h in Resources */,
+				BEC93C5822199CAB0029D681 /* MainStory.storyboard in Resources */,
+				BEC93C5E22199CAB0029D681 /* Assets.xcassets in Resources */,
+				BEC93C5A22199CAB0029D681 /* loading.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35902F459C2970C334ECB6FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KasambaNativeSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D5BED489F170ADD95FE049 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KasambaNativeSDK/Pods-KasambaNativeSDK-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KasambaNativeSDK/Pods-KasambaNativeSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC93B9A22199C610029D681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC93C652219A4BE0029D681 /* SigninViewController.h in Sources */,
+				BEC93C5722199CAB0029D681 /* LoginSDK.m in Sources */,
+				BEC93C2E22199CAB0029D681 /* Connectivity.m in Sources */,
+				BEC93C2C22199CAB0029D681 /* Reachability.m in Sources */,
+				BEC93C2A22199CAB0029D681 /* UserAccountService.swift in Sources */,
+				BEC93C5122199CAB0029D681 /* SWRevealViewController.m in Sources */,
+				BEC93C2122199CAB0029D681 /* RestServiceTaskHandler.swift in Sources */,
+				BEC93C0D22199CAB0029D681 /* AccountResponse.m in Sources */,
+				BEC93C2922199CAB0029D681 /* NativeServiceTaskHandler.swift in Sources */,
+				BEC93C4922199CAB0029D681 /* LinkedList.swift in Sources */,
+				BEC93C2822199CAB0029D681 /* KasambaServiceTaskHandler.swift in Sources */,
+				BEC93C4622199CAB0029D681 /* Dictionary+KeyPath.swift in Sources */,
+				BEC93C4122199CAB0029D681 /* SataticObject.swift in Sources */,
+				BEC93C4822199CAB0029D681 /* NSString+passwordValidation.m in Sources */,
+				BEC93C1522199CAB0029D681 /* NetworkObject.m in Sources */,
+				BEC93C2022199CAB0029D681 /* ServiceTaskHandlerProtocol.swift in Sources */,
+				BEC93C5322199CAB0029D681 /* AccessTokenManager.m in Sources */,
+				BEC93C1F22199CAB0029D681 /* UserAccountError.swift in Sources */,
+				BEC93C5422199CAB0029D681 /* NetworkManager.m in Sources */,
+				BEC93C3822199CAB0029D681 /* LocalizationHelper.m in Sources */,
+				BEC93C1A22199CAB0029D681 /* StatusError.swift in Sources */,
+				BEC93C4022199CAB0029D681 /* HTTPMethod.swift in Sources */,
+				BEC93C5C22199CAB0029D681 /* WCGraintCircleLayer.m in Sources */,
+				BEC93C4F22199CAB0029D681 /* CreateAccountViewController.m in Sources */,
+				BEC93C1C22199CAB0029D681 /* SecuredServiceTaskHandler.swift in Sources */,
+				BEC93C2722199CAB0029D681 /* UrlEncoder.swift in Sources */,
+				BEC93C5B22199CAB0029D681 /* LoadingIndicator.m in Sources */,
+				BEC93C1D22199CAB0029D681 /* JsonEncoder.swift in Sources */,
+				BEC93C2222199CAB0029D681 /* ServiceError.swift in Sources */,
+				BEC93C1422199CAB0029D681 /* UserDetails.m in Sources */,
+				BEC93C6D2219B4D30029D681 /* Utilities.swift in Sources */,
+				BEC93C2622199CAB0029D681 /* ConfigurationService.swift in Sources */,
+				BEC93C1922199CAB0029D681 /* ContentEncoderProtocol.swift in Sources */,
+				BEC93C2422199CAB0029D681 /* JsonServiceTaskHandler.swift in Sources */,
+				BEC93C4722199CAB0029D681 /* NSDictionary+Safe.m in Sources */,
+				BEC93C1022199CAB0029D681 /* ClientConfiguration.m in Sources */,
+				BEC93C4B22199CAB0029D681 /* SidedMenuRootViewController.m in Sources */,
+				BEC93C4422199CAB0029D681 /* Array+Append.swift in Sources */,
+				BEC93C3622199CAB0029D681 /* AppParameters.m in Sources */,
+				BEC93C3E22199CAB0029D681 /* DispatchQueue+ExecutOnMain.swift in Sources */,
+				BEC93C1E22199CAB0029D681 /* ConfigurationServiceProtocol.swift in Sources */,
+				BEC93C4C22199CAB0029D681 /* SigninViewController.m in Sources */,
+				BEC93C3B22199CAB0029D681 /* Dispatch+MainQueue.m in Sources */,
+				BEC93C1222199CAB0029D681 /* AccountManager.m in Sources */,
+				BEC93C3222199CAB0029D681 /* FeatureState.m in Sources */,
+				BEC93C2322199CAB0029D681 /* ConfigurationServiceError.swift in Sources */,
+				BEC93C4222199CAB0029D681 /* NSObject_KVCExtensions.m in Sources */,
+				BEC93C1B22199CAB0029D681 /* Services.swift in Sources */,
+				BEC93C1722199CAB0029D681 /* AccessToken.m in Sources */,
+				BEC93C3F22199CAB0029D681 /* Dictionary+Append.swift in Sources */,
+				BEC93C4322199CAB0029D681 /* DispatchQueue+MainQueue.swift in Sources */,
+				BEC93C2522199CAB0029D681 /* UserAccountServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEC93C0222199CAB0029D681 /* MainStory.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC93C0322199CAB0029D681 /* Base */,
+			);
+			name = MainStory.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC93BA422199C610029D681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEC93BA522199C610029D681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEC93BA722199C610029D681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DE414B8DEBDF340C8837D2 /* Pods-KasambaNativeSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y6P866S9VX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KasambaNativeSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Vered.KasambaNativeSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC93BA822199C610029D681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5012C45B97DE303B1037AAA5 /* Pods-KasambaNativeSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y6P866S9VX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KasambaNativeSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Vered.KasambaNativeSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC93B9822199C610029D681 /* Build configuration list for PBXProject "KasambaNativeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC93BA422199C610029D681 /* Debug */,
+				BEC93BA522199C610029D681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC93BA622199C610029D681 /* Build configuration list for PBXNativeTarget "KasambaNativeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC93BA722199C610029D681 /* Debug */,
+				BEC93BA822199C610029D681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC93B9522199C610029D681 /* Project object */;
+}
